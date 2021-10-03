@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMEKEEPER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="https://www.stpeters-woolton.org.uk/wp-content/uploads/table-tennis1.jpg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img src="https://media.istockphoto.com/vectors/ping-pong-paddle-icon-vector-illustration-vector-id522732526?k=20&m=522732526&s=612x612&w=0&h=kuAqGz8HzqkzvvMPcHSvqV4h_dX8JBorL7gSCwlti8E=" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="title is-4">Table Tennis Timekeeper</p>
+                          <p class="subtitle is-6">@shaguntripathi</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        <h1 class="title is-1"> <span id="player1score">0</span> to <span id="player2score">0</span></h1>
+                        <p class="subtitle">Use the buttons below to keep  score</p>
+                        <label for="playupto" class="label is-large is-inline">Playing upto</label>
+                        <div class="select is-rounded">
+                            <select name="" id="playupto">
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                            </select>
+                        </div>
+                      </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="player1button" class="is-primary button card-footer-item">+1 Player 1</button>
+                        <button id="player2button" class="is-info button card-footer-item">+1 Player 2</button>
+                        <button id="resetgame" class="is-danger button card-footer-item">Reset game</button>                    </footer>
+                   
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="Table_Tennis_Timekeeper.js"></script>
+</body>
+</html>
